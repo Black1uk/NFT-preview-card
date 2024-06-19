@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+:root{
+    --Softblue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --VerydarkbluemainBG: hsl(217, 54%, 11%);
+    --VerydarkbluecardBG : hsl(216, 50%, 16%);
+    --Verydarkblueline: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+}
+
+body{
+    background-color: var(--VerydarkbluemainBG);
+}
+
+h3{
+    color: var(--White);
+    font-family: "Outfit",sans-serif;
+    font-weight: 600;
+}
+
+.work{
+    position: relative;
+    left: 15px;
+    bottom: 25px;
+
+}
+
+
+
+.project{
+    font-size: 18px;
+    position: absolute;
+    width: 290px;
+    position: relative;
+    left: 550px;
+    top: 40px;
+    border: 0.5px solid var(--VerydarkbluecardBG);
+    border-radius: 10px;
+    background-color: var(--VerydarkbluecardBG);
+    height: 530px;
+    
+}
+
+
+.img1{
+    width: 260px;
+    padding: 18px;
+    position: relative;
+    right: 3px;
+    bottom: 5px;
+
+}
+
+span{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.deg{
+    position: relative;
+    left: 22px;
+    bottom: 42px;
+    color: var(--Cyan);
+    font-family: "Outfit",sans-serif;
+    font-weight: 400;
+}
+
+.clock{
+    position: relative;
+    left: 165px;
+    bottom: 79px;
+}
+
+.day{
+    position: relative;
+    left: 187px;
+    bottom: 120px;
+    color: var(--Softblue);
+
+}
+
+.page{
+    font-size: medium;
+    color: var(--Softblue);
+    font-family: "Outfit",sans-serif;
+    font-weight: 300;
+}
+
+.icon{
+    float: left;
+    width: 35px;
+    position: relative;
+    bottom: 100px;
+    border: 2px solid var(--White);
+    border-radius: 40px;
+    
+}
+
+.name{
+    font-size: medium;
+    position: relative;
+    left: 17px;
+    bottom: 100px;
+    color: var(--Softblue);
+    font-family: "Outfit",sans-serif;
+    font-weight: 300;
+}
+
+n{
+    color: var(--White);
+
+}
+
+.horizontal{
+    width: 262px;
+    position: relative;
+    bottom: 115px;
+    
+}
